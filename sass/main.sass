@@ -1,1 +1,97 @@
 @import "libs"
+@font-face
+  font-family: GothamProBlack
+  src: url(../fonts/GothamProBlack/GothamProBlack.woff)
+@font-face
+  font-family: GothamPro
+  src: url(../fonts/GothamPro/GothamPro.woff)
+
+body
+  margin: 0
+  padding: 0
+  font-family: 'GothamProBlack', sans-serif
+
+.main-nav
+  padding: 35px 65px
+  position: relative
+  & .container
+    text-align: right
+  & a
+    vertical-align: bottom
+    color: #1e90ff
+    font-size: 14px
+    font-weight: bold
+    text-decoration: none
+    margin-right: 25px
+    &:hover
+      color: darken(#1e90ff, 20%)
+    &.main-nav__main-title
+      position: absolute
+      color: #2f3542
+      font-size: 20px
+      &:hover
+        color: darken(#2f3542, 20%)
+  &__hamburger
+    display: inline-block
+    position: absolute
+    top: 30px
+    right: 65px
+    content: ""
+    width: 24px
+    cursor: pointer
+    & span
+      display: block
+      content: ""
+      width: 24px
+      height: 2px
+      background-color: #000
+      margin-top: 6px
+    &:hover span
+      height: 3px
+      margin-top: 5px
+
+.briefing
+  font-size: 90px
+  & .briefing__slogan
+    margin-bottom: 0
+    margin-top: 0.5em
+  & .briefing__slogan--colored
+    color: #1e90ff
+  & .briefing__text
+    font-size: 24px
+    font-family: 'GothamPro', sans-serif
+    padding-right: 45px
+    line-height: 1.62
+
+.just-done-work
+  font-family: 'GothamPro', sans-serif
+  background: url(../img/background_redesign-Vista.png) no-repeat
+  background-size: cover
+  padding-top: 40px
+  padding-bottom: 40px
+  color: #fff
+  &__subtitle
+    margin: 0
+    font-size: 14px
+  &__title
+    font-family: 'GothamProBlack', sans-serif
+    font-size: 36px
+    font-weight: bold
+    margin-top: 20px
+    margin-bottom: 20px
+  &__description
+    font-size: 18px
+    line-height: 1.41
+    padding-right: 15px
+  &__more
+    display: inline-block
+    vertical-align: top
+    font-family: 'GothamProBlack', sans-serif
+    color: #fff
+    text-decoration: none
+    font-size: 18px
+    padding: 10px 25px
+    border: 2px solid #fff
+    border-radius: 3px
+    &:hover
+      color: darken(#fff, 10%)

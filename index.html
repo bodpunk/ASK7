@@ -23,32 +23,40 @@
 	<header class="main-header">
 <!-- Main-nav -->
 		<nav class="main-nav">
+			<a class="main-nav__main-title" href="#">ASK7</a>
 			<div class="container">
-				<div class="row">
-					<a class="main-nav__main-title col-md-1" href="#">ASK7</a>
-					<a class="main-nav__who-we-are main-nav__item col-md-offset-5" href="#">Кто мы</a>
-					<a class="main-nav__what-we-did main-nav__item" href="#">Что уже сделали</a>
-					<a class="main-nav__what-we-do main-nav__item" href="#">Чем занимаемся</a>
-					<a class="main-nav__contacts main-nav__item" href="#">Как связаться</a>
-					<div class="main-nav__hamburger"></div>
-				</div>
+				<a class="main-nav__who-we-are main-nav__item" href="#">Кто мы</a>
+				<a class="main-nav__what-we-did main-nav__item" href="#">Что уже сделали</a>
+				<a class="main-nav__what-we-do main-nav__item" href="#">Чем занимаемся</a>
+				<a class="main-nav__contacts main-nav__item" href="#">Как связаться</a>
+			</div>
+			<div class="main-nav__hamburger">
+				<span class="hamburger__bar"></span>
+				<span class="hamburger__bar"></span>
+				<span class="hamburger__bar"></span>
 			</div>
 		</nav>
 <!-- /Main-nav -->
-		<section class="main-header__briefing">
+	</header>
+<!-- /Header -->
+<!-- Main -->
+	<main>
+		<section class="briefing">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-11 offset-md-1">
 						<p class="briefing__slogan"><span class="briefing__slogan--colored">Создаем</span><br>интернет сайты</p>
+					</div>
+					<div class="col-md-9 offset-md-1">
 						<p class="briefing__text">За последний месяц мы сделали 4 проекта и не собираемся на этом останавливаться.</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="main-header__just-done-work">
+		<section class="just-done-work">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 col-md-offset-2">
+					<div class="col-md-5 offset-md-1">
 						<p class="just-done-work__subtitle">Свежая работа</p>
 						<h2 class="just-done-work__title">Редизайн сайта Виста</h2>
 						<p class="just-done-work__description">Надо было освежить главную страницу, страницу корпоративных клиентов и оставить узнаваемую стилистику.</p>
@@ -57,15 +65,11 @@
 				</div>
 			</div>
 		</section>
-	</header>
-<!-- /Header -->
-<!-- Main -->
-	<main>
 <!-- Basic-services -->
 		<section class="basic-services">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-8 offset-md-2">
 						<h2 class="basic-services__title">Основные услуги</h2>
 						<div class="col-md-6 basic-services__item basic-services__design-item">
 							<h2 class="design-item__title">Дизайн сайтов, приложений для iOS и Android, подготовока печатных материалов.</h2>
@@ -84,13 +88,13 @@
 		<section class="our-works">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-md-offset-2">
+					<div class="col-md-7 offset-md-2">
 						<h2 class="our-works__title">Работы</h2>
 						<p class="our-works__description">Каждая из наших работ индивидуальна. Мы делаем проекты только после изучения специфики компании и ее особенностей. В каждой задачи мы находим что-то интересное, что выделит ее на других в этой области.</p>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-1 col-md-offset-1">
+					<div class="col-md-1 offset-md-1">
 						<nav class="our-works__nav">
 							<ul>
 								<li class="our-works__nav-item">Дизайн</li>
@@ -151,7 +155,7 @@
 		<section class="contacts">
 			<div class="container">
 				<div class="row">
-					<div class="contacts__contacts-content col-md-8 col-md-offset-2">
+					<div class="contacts__contacts-content col-md-8 offset-md-2">
 						<div class="contacts-content__contacts-text col-md-6">
 							<h2 class="contacts-text__title">Наши контакты</h2>
 							<p class="contacts-text__address"><span class="contacts-text__address--city">Екатеринбург</span><span class="contacts-text__address--rest">ул. Стачек, дом 70, цокольный этаж</span></p>

@@ -1,2 +1,28 @@
-@import url(../libs/bootstrap-grid/bootstrap-grid.css)
+@import url(../libs/bootstrap-grid/bootstrap-grid.css);
+@font-face { font-family: GothamProBlack; src: url(../fonts/GothamProBlack/GothamProBlack.woff); }
+@font-face { font-family: GothamPro; src: url(../fonts/GothamPro/GothamPro.woff); }
+body { margin: 0; padding: 0; font-family: "GothamProBlack", sans-serif; }
+
+.main-nav { padding: 35px 65px; position: relative; }
+.main-nav .container { text-align: right; }
+.main-nav a { vertical-align: bottom; color: #1e90ff; font-size: 14px; font-weight: bold; text-decoration: none; margin-right: 25px; }
+.main-nav a:hover { color: #005db7; }
+.main-nav a.main-nav__main-title { position: absolute; color: #2f3542; font-size: 20px; }
+.main-nav a.main-nav__main-title:hover { color: #050506; }
+.main-nav__hamburger { display: inline-block; position: absolute; top: 30px; right: 65px; content: ""; width: 24px; cursor: pointer; }
+.main-nav__hamburger span { display: block; content: ""; width: 24px; height: 2px; background-color: #000; margin-top: 6px; }
+.main-nav__hamburger:hover span { height: 3px; margin-top: 5px; }
+
+.briefing { font-size: 90px; }
+.briefing .briefing__slogan { margin-bottom: 0; margin-top: 0.5em; }
+.briefing .briefing__slogan--colored { color: #1e90ff; }
+.briefing .briefing__text { font-size: 24px; font-family: "GothamPro", sans-serif; padding-right: 45px; line-height: 1.62; }
+
+.just-done-work { font-family: "GothamPro", sans-serif; background: url(../img/background_redesign-Vista.png) no-repeat; background-size: cover; padding-top: 40px; padding-bottom: 40px; color: #fff; }
+.just-done-work__subtitle { margin: 0; font-size: 14px; }
+.just-done-work__title { font-family: "GothamProBlack", sans-serif; font-size: 36px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; }
+.just-done-work__description { font-size: 18px; line-height: 1.41; padding-right: 15px; }
+.just-done-work__more { display: inline-block; vertical-align: top; font-family: "GothamProBlack", sans-serif; color: #fff; text-decoration: none; font-size: 18px; padding: 10px 25px; border: 2px solid #fff; border-radius: 3px; }
+.just-done-work__more:hover { color: #e6e6e6; }
+
 /*# sourceMappingURL=main.css.map */
