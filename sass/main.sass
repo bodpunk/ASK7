@@ -15,13 +15,13 @@ body
   font-family: 'GothamProBlack', sans-serif
 
 section
-  margin-bottom: 5vw
+  margin-bottom: 15vh
 
 h2
   margin-top: 0
 
 .main-nav
-  padding: 35px 65px
+  padding: 3.2vh 3.4vw
   position: relative
   & .container
     text-align: right
@@ -31,7 +31,8 @@ h2
     font-size: 14px
     font-weight: bold
     text-decoration: none
-    margin-right: 25px
+    margin-right: 2.5vw
+    white-space: nowrap
     &:hover
       color: darken(#1e90ff, 20%)
     &.main-nav__main-title
@@ -43,8 +44,8 @@ h2
   &__hamburger
     display: inline-block
     position: absolute
-    top: 30px
-    right: 65px
+    top: 3.2vh
+    right: 6vw
     content: ""
     width: 24px
     cursor: pointer
@@ -69,15 +70,16 @@ h2
   & .briefing__text
     font-size: 24px
     font-family: 'GothamPro', sans-serif
-    padding-right: 45px
+    padding-right: 2.3vw
     line-height: 1.62
 
 .just-done-work
   font-family: 'GothamPro', sans-serif
   background: url(../img/background_redesign-Vista.png) no-repeat
   background-size: cover
-  padding-top: 40px
-  padding-bottom: 40px
+  background-position: center
+  padding-top: 3.7vh
+  padding-bottom: 3.7vh
   color: #fff
   &__subtitle
     font-family: 'GothamProLight', sans-serif
@@ -87,12 +89,12 @@ h2
     font-family: 'GothamProBlack', sans-serif
     font-size: 36px
     font-weight: bold
-    margin-top: 20px
-    margin-bottom: 20px
+    margin-top: 1.85vh
+    margin-bottom: 1.85vh
   &__description
     font-size: 18px
     line-height: 1.41
-    padding-right: 15px
+    padding-right: 1vw
   &__more
     display: inline-block
     vertical-align: top
@@ -100,7 +102,7 @@ h2
     color: #fff
     text-decoration: none
     font-size: 18px
-    padding: 10px 25px
+    padding: 1vh 1.3vw
     border: 2px solid #fff
     border-radius: 3px
     &:hover
@@ -150,9 +152,27 @@ h2
     cursor: pointer
     &:hover
       color: #3742fa
+      & .work-item__img
+        &--mask
+          display: block
+    & .img-container
+      position: relative
     & .work-item__img
       width: 100%
       height: auto
+      &--mask
+        display: none
+        position: absolute
+        left: 0
+        top: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(55, 66, 250, 0.8)
+        text-align: center
+        padding-top: 10vh
+        color: #fff
+        font-size: 18px
+        line-height: 2
     & .work-item__name
       font-size: 18px
       text-align: center
@@ -195,7 +215,7 @@ h2
       font-family: 'GothamProBlack', sans-serif
       font-size: 18px
       color: #1e90ff
-      padding: 15px 30px
+      padding: 1.4vh 1.6vw
       background: none
       border: 2px solid #1e90ff
       border-radius: 3px
@@ -211,7 +231,7 @@ h2
   display: flex
   justify-content: space-between
   align-items: center
-  padding: 20px 65px
+  padding: 1.9vh 3.4vw
   background-color: #2f3542
   color: #fff
   font-family: 'GothamPro', sans-serif
