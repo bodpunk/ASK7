@@ -1,7 +1,12 @@
 @import url(../libs/bootstrap-grid/bootstrap-grid.css);
 @font-face { font-family: GothamProBlack; src: url(../fonts/GothamProBlack/GothamProBlack.woff); }
 @font-face { font-family: GothamPro; src: url(../fonts/GothamPro/GothamPro.woff); }
+@font-face { font-family: GothamProLight; src: url(../fonts/GothamProLight/GothamProLight.woff); }
 body { margin: 0; padding: 0; font-family: "GothamProBlack", sans-serif; }
+
+section { margin-bottom: 5vw; }
+
+h2 { margin-top: 0; }
 
 .main-nav { padding: 35px 65px; position: relative; }
 .main-nav .container { text-align: right; }
@@ -19,10 +24,43 @@ body { margin: 0; padding: 0; font-family: "GothamProBlack", sans-serif; }
 .briefing .briefing__text { font-size: 24px; font-family: "GothamPro", sans-serif; padding-right: 45px; line-height: 1.62; }
 
 .just-done-work { font-family: "GothamPro", sans-serif; background: url(../img/background_redesign-Vista.png) no-repeat; background-size: cover; padding-top: 40px; padding-bottom: 40px; color: #fff; }
-.just-done-work__subtitle { margin: 0; font-size: 14px; }
+.just-done-work__subtitle { font-family: "GothamProLight", sans-serif; margin: 0; font-size: 14px; }
 .just-done-work__title { font-family: "GothamProBlack", sans-serif; font-size: 36px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; }
 .just-done-work__description { font-size: 18px; line-height: 1.41; padding-right: 15px; }
 .just-done-work__more { display: inline-block; vertical-align: top; font-family: "GothamProBlack", sans-serif; color: #fff; text-decoration: none; font-size: 18px; padding: 10px 25px; border: 2px solid #fff; border-radius: 3px; }
 .just-done-work__more:hover { color: #e6e6e6; }
+
+.basic-services__title { font-size: 48px; }
+.basic-services__item { font-family: "GothamPro", sans-serif; font-weight: normal; line-height: 1.62; }
+.basic-services__item h2 { font-size: 24px; font-weight: normal; padding-right: 11%; }
+.basic-services__item p { font-size: 18px; padding-right: 11%; }
+
+.our-works__title { font-size: 48px; }
+.our-works__description { font-family: "GothamPro", sans-serif; font-size: 18px; line-height: 1.62; }
+.our-works__nav ul { text-align: right; overflow: visible; padding: 0; margin-left: -100%; }
+.our-works__nav ul li { font-family: "GothamProLight", sans-serif; list-style-type: none; text-align: right; margin-bottom: 1em; cursor: pointer; }
+.our-works__nav ul li:hover { font-family: "GothamProBlack", sans-serif; color: #1e90ff; }
+.our-works__nav ul li.active { font-family: "GothamProBlack", sans-serif; color: #1e90ff; }
+.our-works__work-item { color: #1e90ff; cursor: pointer; }
+.our-works__work-item:hover { color: #3742fa; }
+.our-works__work-item .work-item__img { width: 100%; height: auto; }
+.our-works__work-item .work-item__name { font-size: 18px; text-align: center; }
+.our-works__more-works { text-align: center; color: #2f3542; cursor: pointer; }
+.our-works__more-works:hover { color: #000; }
+.our-works__more-works .more-works__text { display: inline-block; font-size: 48px; text-transform: uppercase; }
+.our-works__more-works .more-works__number { display: inline-block; font-size: 140px; }
+
+.contacts { color: #2f3542; }
+.contacts-text__title { font-size: 48px; -webkit-margin-before: 0; margin-block-start: 0; -webkit-margin-after: 0.5em; margin-block-end: 0.5em; }
+.contacts-text__address { font-size: 24px; line-height: 1.41; padding-right: 15%; }
+.contacts-text__address--city { display: block; font-family: "GothamProLight", sans-serif; font-size: 14px; -webkit-margin-before: 1em; margin-block-start: 1em; -webkit-margin-after: 1em; margin-block-end: 1em; }
+.contacts-text__phone { font-size: 36px; color: #1e90ff; }
+.contacts-text__write-letter-button { font-family: "GothamProBlack", sans-serif; font-size: 18px; color: #1e90ff; padding: 15px 30px; background: none; border: 2px solid #1e90ff; border-radius: 3px; cursor: pointer; }
+.contacts-text__write-letter-button:hover { color: #006ad1; }
+.contacts__contacts-map iframe { width: 100%; height: 100%; }
+
+.main-footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 20px 65px; background-color: #2f3542; color: #fff; font-family: "GothamPro", sans-serif; font-size: 14px; }
+.main-footer a { margin-left: 20px; }
+.main-footer a:hover { opacity: 0.7; }
 
 /*# sourceMappingURL=main.css.map */
